@@ -1,0 +1,42 @@
+<!--
+  @description       : 
+  @author            : Mamadou Lamine CAMARA
+  @group             : 
+  @last modified on  : 24-10-2024 
+  @last modified by  : Mamadou Lamine CAMARA
+-->
+<aura:component implements="flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes" 
+                extends="c:LC_CustomHelper"
+                access="global">
+    <footer>
+        <div class="footer">
+            
+            <!-- <div class="row">
+                <a href="https://www.facebook.comccareoncology/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/ccare-california-cancer-associates-for-research-&amp;-excellence/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/ccareonc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/ccareoncology" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.youtube.com/@ccare2467" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div> -->
+            <div class="row">
+                <ul>
+                    <li>Réalisé par &nbsp;&nbsp;<a href="https://www.loditech.sn" target="_blank">LODITECH</a>&nbsp;&nbsp;</li>
+                    <li><a href="#">Conditions d'utilisation</a></li>
+                    <li><a href="#">Politiques de confidentialité</a></li>
+                    <li><a href="#">Gestion des cookies</a></li>
+                </ul>
+            </div>
+<!--             
+            <div class="row">
+                Adresse | email | tel
+            </div>
+             -->
+            <div class="row">
+                <!-- <a href="fr.html">© <b>RMO</b></a> &nbsp;&nbsp;2024 - Tous droits réservés&nbsp;&nbsp;&nbsp; -->
+                © Groupe ISM 2024 - Tous droits réservés.
+            </div>
+        </div>
+    </footer>
+    
+    
+</aura:component>

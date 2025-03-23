@@ -1,0 +1,5 @@
+<aura:component abstract="True">
+
+    {!v.body}
+	
+</aura:component>

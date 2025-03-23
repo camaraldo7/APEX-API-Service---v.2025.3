@@ -1,0 +1,28 @@
+<!--
+  @description       : 
+  @author            : Mamadou Lamine CAMARA
+  @group             : 
+  @last modified on  : 10-10-2024 
+  @last modified by  : Mamadou Lamine CAMARA
+-->
+<aura:component implements="forceCommunity:themeLayout" access="global">
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="backgroundImageURL" type="String" default=""/>
+    <div class="container-full">
+        <div class="left-section">
+            <div class="bg-cover" style="{!'background-image: url(' + v.backgroundImageURL +')'}">
+                <!-- <div class="hero-content">
+                    <h1 class="heading-text">
+                        &laquo; Caring physicians. Caring for people. &raquo;
+                    </h1>
+                    <p class="service-text">Your Journey. Our Commitment.</p>
+                    <p class="service-text">cCARE serves the California communities as the largest private oncology practice in the state.</p>  
+                </div> -->
+            </div>
+        </div>
+        <div class="right-section">
+            {!v.body}
+        </div>
+    </div>
+</aura:component>
