@@ -1,0 +1,26 @@
+/**
+* @File Name : AwesomeCalculatorTest.cls
+* @Description :
+* @Author :
+* @Last Modified By :
+* @Last Modified On : March 24, 2025
+* @Modification Log :
+*==============================================================================
+* Ver | Date | Author | Modification
+*==============================================================================
+* 1.0 | March 24, 2025 |   | Initial Version
+**/
+
+@isTest
+private class AwesomeCalculatorTest {
+    @isTest static void testCallout() {
+        // This causes a fake response to be generated
+        Test.setMock(WebServiceMock.class, new CalculatorCalloutMock());
+        // Call the method that invokes a callout
+        Double x = 1.0;
+        Double y = 2.0;
+        Double result = AwesomeCalculator.add(x, y);
+        // Verify that a fake result is returned
+        Assert.areEqual(3.0, result);
+    }
+}
